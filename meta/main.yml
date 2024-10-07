@@ -1,0 +1,18 @@
+galaxy_info:
+  author: morsh92
+  description: Install pre-configured Promtheus Stack 
+  company: polar.org
+  license: license (GPL-2.0-or-later, MIT, etc)
+
+  min_ansible_version: 2.1
+
+  platforms:
+   - name: Ubuntu
+     versions:
+        - jammy
+
+  galaxy_tags: []
+
+dependencies: 
+  - src: https://github.com/Morshimus/SkillFactory-B11-Project-CI-Role-INFRA
+    name: Infrastructure
